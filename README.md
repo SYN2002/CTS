@@ -49,7 +49,7 @@
 │ │ ├── Medication.java
 │ │ └── Supplier.java
 │ ├── DB
-│ │ └── JDBCUtil.java
+│ │ └── JdbcConnection.java
 │ ├── Menu.java
 │ └── InventoryManagementSystem.java
 └── lib
