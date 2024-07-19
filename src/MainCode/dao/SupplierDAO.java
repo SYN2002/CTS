@@ -24,6 +24,7 @@ public class SupplierDAO {
             pstmt.executeUpdate();
             System.out.println("Supplier added successfully.");
         } catch (SQLException e) {
+        	// TODO: handle exception
             e.printStackTrace();
         }
     }
@@ -44,6 +45,7 @@ public class SupplierDAO {
                 return supplier;
             }
         } catch (SQLException e) {
+        	// TODO: handle exception
             e.printStackTrace();
         }
         return null;
@@ -61,6 +63,7 @@ public class SupplierDAO {
             pstmt.executeUpdate();
             System.out.println("Supplier updated successfully.");
         } catch (SQLException e) {
+        	// TODO: handle exception
             e.printStackTrace();
         }
     }
@@ -73,6 +76,7 @@ public class SupplierDAO {
             pstmt.executeUpdate();
             System.out.println("Supplier deleted successfully.");
         } catch (SQLException e) {
+        	// TODO: handle exception
             e.printStackTrace();
         }
     }

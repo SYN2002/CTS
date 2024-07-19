@@ -41,6 +41,7 @@ public class InventoryDAO {
 
             System.out.println("Inventory updated successfully.");
         } catch (SQLException e) {
+        	// TODO: handle exception
             e.printStackTrace();
         }
     }
@@ -61,6 +62,7 @@ public class InventoryDAO {
                 inventoryList.add(inventory);
             }
         } catch (SQLException e) {
+        	// TODO: handle exception
             e.printStackTrace();
         }
         return inventoryList;
@@ -81,6 +83,7 @@ public class InventoryDAO {
                 lowStockMedications.add(medication);
             }
         } catch (SQLException e) {
+        	// TODO: handle exception
             e.printStackTrace();
         }
         return lowStockMedications;
