@@ -3,7 +3,7 @@
 ## Setup
 
 1. Install MySQL and create a database using the provided SQL script.
-2. Update the `JDBCUtil` class with your MySQL credentials.
+2. Update the `JdbcConnection` class with your MySQL credentials.
 3. Compile and run the `InventoryManagementSystem` class.
 
 ## Features
