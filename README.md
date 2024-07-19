@@ -1,5 +1,9 @@
 # Inventory Management System
 
+## Objective
+
+Develop a menu-based console application to assess your proficiency in Core Java, MySQL, and JDBC. The application will simulate an inventory management system for a pharmaceutical company, allowing users to manage medications, suppliers, and inventory levels.
+
 ## Setup
 
 1. Install MySQL and create a database using the provided SQL script.
